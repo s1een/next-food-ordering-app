@@ -1,5 +1,4 @@
 .container {
-  height: calc(100vh - 100px);
   background-color: #222;
   display: flex;
 }
@@ -10,9 +9,12 @@
   display: flex;
 }
 
+.item:first-child {
+  flex: 1;
+}
+
 .item:last-child {
   flex: 2;
-  padding: 50px;
   justify-content: space-between;
 }
 

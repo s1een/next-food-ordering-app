@@ -3,7 +3,7 @@ import PizzaCard from "../components/PizzaCard";
 
 const ProductList = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="products">
       <h1 className={styles.title}>THE BEST PIZZA IN TOWN</h1>
       <p className={styles.description}>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis
