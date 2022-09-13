@@ -1,6 +1,7 @@
 .container {
   background-color: #222;
   display: flex;
+  width: 100%;
 }
 
 .item {
