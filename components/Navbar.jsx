@@ -24,9 +24,7 @@ const Navbar = () => {
       <div className={styles.item}>
         <ul className={styles.list}>
           <li className={styles.listItem}>
-            <Link href={"/product/1"}>
-              <a>Products</a>
-            </Link>
+            <a>Products</a>
           </li>
           <li className={styles.listItem}>Menu</li>
           <Link href={"/"}>
@@ -41,9 +39,7 @@ const Navbar = () => {
           </Link>
           <li className={styles.listItem}>Blog</li>
           <li className={styles.listItem}>
-            <Link href={"/order/1"}>
-              <a>Order</a>
-            </Link>
+            <a>Order</a>
           </li>
         </ul>
       </div>

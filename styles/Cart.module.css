@@ -109,3 +109,19 @@
     font-weight: 500;
   }
 }
+
+.payment {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.payBtn {
+  padding: 10px 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  background-color: #d1411e;
+  color: white;
+  font-weight: bold;
+  border: none;
+}

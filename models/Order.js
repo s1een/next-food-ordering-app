@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const orderSchema = new mongoose.Schema(
   {
-    costomer: {
+    customer: {
       type: String,
       required: true,
       maxlength: 60,
