@@ -21,6 +21,8 @@
   color: #666;
 }
 .description {
+  border: 1px solid #666;
+  padding: 10px;
   text-align: center;
   color: #777;
 }
@@ -36,5 +38,20 @@
   .price,
   .description {
     font-size: 24px;
+  }
+}
+
+.img {
+  animation: spin 20s linear infinite;
+  cursor: grab;
+}
+
+.img:hover {
+  animation-play-state: paused;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(1turn);
   }
 }

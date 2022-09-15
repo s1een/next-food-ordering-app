@@ -37,7 +37,7 @@ const Featured = () => {
               src={img}
               alt="slider-img"
               layout="fill"
-              objectFit="contain"
+              // objectFit="contain"
             />
           </div>
         ))}

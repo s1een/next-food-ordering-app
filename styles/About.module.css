@@ -1,0 +1,19 @@
+.container {
+  height: calc(100vh - 100px);
+}
+
+.wrapper {
+  max-width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #d1411e;
+}
+
+.list {
+  list-style: disc;
+}
+
+.title {
+  text-align: center;
+  text-decoration: underline;
+}

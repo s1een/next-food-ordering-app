@@ -87,3 +87,28 @@
     flex: 3;
   }
 }
+
+.logo {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  animation: spin 10s linear infinite;
+}
+
+.logo:hover {
+  animation-play-state: paused;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+}

@@ -24,22 +24,31 @@ const Navbar = () => {
       <div className={styles.item}>
         <ul className={styles.list}>
           <li className={styles.listItem}>
-            <a>Products</a>
+            <a href="#products">Products</a>
           </li>
-          <li className={styles.listItem}>Menu</li>
-          <Link href={"/"}>
-            <a>
-              <Image
-                src="/img/logo.png"
-                alt="logo-img"
-                width="250px"
-                height="100px"
-              />
-            </a>
-          </Link>
-          <li className={styles.listItem}>Blog</li>
           <li className={styles.listItem}>
-            <a>Order</a>
+            <a href="#products">Menu</a>
+          </li>
+          <div className={styles.logoContainer}>
+            <Link href={"/"}>
+              <a>
+                <Image
+                  className={styles.logo}
+                  src="/img/size.png"
+                  alt="logo-img"
+                  width="80px"
+                  height="80px"
+                />
+              </a>
+            </Link>
+          </div>
+          <li className={styles.listItem}>
+            <Link href={"/about"}>
+              <a>About</a>
+            </Link>
+          </li>
+          <li className={styles.listItem}>
+            <a>Orders</a>
           </li>
         </ul>
       </div>

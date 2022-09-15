@@ -1,7 +1,6 @@
 .container {
   background-color: #222;
   display: flex;
-  width: 100%;
 }
 
 .item {
@@ -10,12 +9,9 @@
   display: flex;
 }
 
-.item:first-child {
-  flex: 1;
-}
-
 .item:last-child {
   flex: 2;
+  padding: 50px;
   justify-content: space-between;
 }
 
@@ -45,12 +41,15 @@
   .item:first-child {
     display: none;
   }
+
   .item {
     flex-direction: column;
   }
+
   .title {
     font-size: 30px;
   }
+
   .text {
     font-size: 20px;
   }
